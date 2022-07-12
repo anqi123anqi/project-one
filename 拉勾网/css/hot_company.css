@@ -1,0 +1,85 @@
+/* 层叠公共样式不一样的部分 */
+
+.hot_company .details ul {
+    display: block;
+}
+
+.hot_company .details ul li {
+    width: 260px;
+    height: 248px;
+    padding: 20px 5px 0;
+}
+
+
+/* 列表内的样式 */
+
+.hot_company .details ul li .top {
+    width: 100%;
+    height: 181px;
+    border-bottom: 1px dashed #e0e0e0;
+    text-align: center;
+    line-height: 24px;
+}
+
+.hot_company .details ul li .top .companyLogo {
+    margin-bottom: 13px;
+}
+
+.hot_company .details ul li .top .companyLogo a {
+    width: 80px;
+    text-align: center;
+}
+
+.hot_company .details ul li .top .companyLogo img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.hot_company .details ul li .top h4 {
+    font-size: 16px;
+}
+
+.hot_company .details ul li .top h4 a {
+    color: #333;
+}
+
+.hot_company .details ul li .top .labels {
+    margin-bottom: 3px;
+    color: #999;
+}
+
+.hot_company .details ul li .top .info {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hot_company .details ul li .bottom {
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hot_company .details ul li .bottom a {
+    width: 80px;
+    height: 30px;
+    border-right: 1px solid #ededed;
+}
+
+.hot_company .details ul li .bottom .item3 {
+    border-right: 0;
+}
+
+.hot_company .details ul li .bottom .date {
+    font-size: 12px;
+    color: #00b38a;
+    margin-bottom: 4px;
+}
+
+.hot_company .details ul li .bottom .name {
+    font-size: 14px;
+    line-height: 12px;
+}

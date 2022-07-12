@@ -1,0 +1,80 @@
+@import url(common/subBar.css);
+body {
+  background: url(../images/productor_bg.jpg) no-repeat top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.conter {
+  position: relative;
+  width: 1020px;
+  top: 60px;
+  left: 340px;
+  bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.legend {
+  display: flex;
+  justify-content: end;
+  color: #fff;
+  padding-top: 20px;
+}
+.legend ul {
+  display: flex;
+}
+.legend ul li {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+.legend ul li .iconfont {
+  font-size: 25px;
+}
+.legend ul li div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+}
+.free {
+  background-color: #66a8a6;
+}
+.Ordering {
+  background-color: #f79700;
+}
+.D-dinner {
+  background-color: #e5553f;
+}
+.in {
+  margin: 0 10px;
+}
+.table {
+  width: 90%;
+  margin: 40px auto 0;
+}
+.table ul {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.table ul li {
+  margin: 10px 30px;
+}
+.table div span {
+  font-size: 80px;
+}
+.table span {
+  font-size: 20px;
+}
+.table div {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  line-height: 120px;
+  text-align: center;
+  margin-bottom: 20px;
+}

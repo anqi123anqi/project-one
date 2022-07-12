@@ -1,0 +1,251 @@
+    /* 中间分类部分开始 */
+    
+    .grid {
+        height: 580px;
+        margin-top: 10px;
+    }
+    /* .grid-col1 */
+    
+    .grid-col1 {
+        width: 190px;
+        height: 100%;
+        font-size: 14px;
+        color: #333333;
+        background-color: #fefefe;
+    }
+    
+    .grid-col1 a {
+        color: #333333;
+        font-size: 14px;
+        margin: 0 3px;
+    }
+    
+    .grid-col1 ul {
+        padding: 15px 0;
+    }
+    
+    .grid-col1 ul li {
+        line-height: 31px;
+        padding-left: 12px;
+    }
+    
+    .grid-col1 ul li:hover {
+        background-color: #cfcfcf;
+    }
+    /* .grid-col2 */
+    
+    .grid-col2 {
+        width: 790px;
+        height: 100%;
+        margin-left: 10px;
+    }
+    
+    .grid-col2 .fcous img {
+        width: 600px;
+        height: 580px;
+    }
+    
+    .grid-col2 .recommend li img {
+        width: 185px;
+        height: 170px;
+        margin-bottom: 32px;
+    }
+    
+    .grid-col2 .fcous {
+        position: relative;
+    }
+    /* 箭头部分 */
+    
+    .arr-l,
+    .arr-r {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 60px;
+        background: rgba(0, 0, 0, .3);
+        line-height: 60px;
+        font-size: 20px;
+        color: rgba(255, 255, 255, .6);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .arr-r {
+        right: 0;
+        border-radius: 15px 0 0 15px;
+        text-indent: 10px;
+    }
+    
+    .arr-l {
+        left: 0;
+        border-radius: 0 15px 15px 0;
+        text-indent: 5px;
+    }
+    
+    .circle {
+        width: 165px;
+        height: 20px;
+        border-radius: 10px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 20px;
+        background: rgba(255, 255, 255, .3);
+        padding-left: 5px;
+    }
+    
+    .circle li {
+        width: 12px;
+        height: 12px;
+        float: left;
+        margin: 4px 4px 0;
+        background-color: #fff;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .circle .current {
+        background-color: #f10125;
+    }
+    
+    .grid-col3 {
+        width: 190px;
+        height: 100%;
+        background-color: #ffffff;
+    }
+    
+    .grid-col3 .jd_user {
+        width: 190px;
+        height: 102px;
+        border-bottom: 1px solid;
+        border-image: linear-gradient(to right, #ffffff, black, #ffffff) 1;
+        position: relative;
+    }
+    
+    .grid-col3 .jd_user .user_photo {
+        position: absolute;
+        top: 10px;
+        left: 24px;
+    }
+    
+    .grid-col3 .jd_user img {
+        width: 44px;
+        height: 44px;
+        border-radius: 22px;
+        border: 1px solid #FEFF04;
+    }
+    
+    .grid-col3 .user_show {
+        position: absolute;
+        top: 20px;
+        left: 82px;
+    }
+    
+    .grid-col3 .user_show a {
+        padding: 5px;
+    }
+    
+    .grid-col3 .user_showp {
+        margin-top: 5px;
+    }
+    
+    .grid-col3 .jd_user .user_profit {
+        position: absolute;
+        top: 70px;
+        left: 12px;
+    }
+    
+    .grid-col3 .jd_user .user_profit a {
+        display: inline-block;
+        width: 66px;
+        height: 25px;
+        text-align: center;
+        line-height: 25px;
+        border-radius: 25px;
+        font-size: 12px;
+        margin-left: 8px;
+    }
+    
+    .grid-col3 .jd_user .user_profit a:nth-child(1) {
+        background-color: #e1251b;
+        color: #fcffff;
+        margin-left: 0px;
+    }
+    
+    .grid-col3 .jd_user .user_profit a:nth-child(2) {
+        background-color: #363634;
+        color: #e5d790;
+    }
+    
+    .grid-col3 .news {
+        height: 130px;
+        border-bottom: 1px solid;
+        border-image: linear-gradient(to right, #ffffff, black, #ffffff) 1;
+    }
+    
+    .grid-col3 .news_hd {
+        height: 30px;
+        line-height: 30px;
+    }
+    
+    .grid-col3 .news_hd h5 {
+        float: left;
+        text-indent: 10px;
+        font-size: 14px;
+        color: #333;
+    }
+    
+    .grid-col3 .news_hd a {
+        float: left;
+        text-indent: 70px;
+        font-size: 12px;
+    }
+    
+    .news_list li {
+        margin: 7px 16px 0 0;
+        text-indent: 12px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .news_list li a {
+        text-decoration: none;
+    }
+    
+    .news_list .news_list_tag {
+        display: inline-block;
+        width: 35px;
+        height: 16px;
+        margin-right: 5px;
+        text-indent: 5px;
+        line-height: 16px;
+        color: #e1251b;
+        background-color: #fdeeed;
+    }
+    /* user_inner */
+    
+    .grid-col3 .user_inner li {
+        float: left;
+        width: 63px;
+        height: 85px;
+        text-align: center;
+    }
+    
+    .grid-col3 .user_inner ul {
+        margin-top: 15px;
+    }
+    
+    .grid-col3 .user_inner i img {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .grid-col3 .user_inner i {
+        display: block;
+        padding-bottom: 10px;
+    }
+    /* .grid-col3 .user_inner span {
+      
+    } */
+    /* 中间分类部分结束*/

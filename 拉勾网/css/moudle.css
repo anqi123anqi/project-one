@@ -1,0 +1,104 @@
+/* moudle_tabs公共样式 */
+
+.modlue_tabs {
+    width: 100%;
+    margin-top: 37px;
+    margin-bottom: 54px;
+}
+
+.modlue_tabs .title {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 28px;
+}
+
+.modlue_tabs .title span {
+    float: left;
+    left: 0;
+    height: 48px;
+    font-size: 16px;
+    line-height: 48px;
+    color: #999;
+    margin-left: 58px;
+    cursor: pointer;
+}
+
+.modlue_tabs .title .current {
+    border-bottom: 1px solid #333;
+    color: #333;
+}
+
+
+/* 热点提示 */
+
+.modlue_tabs .hot_tips {
+    height: 18px;
+    margin-bottom: 18px;
+    line-height: 18px;
+}
+
+.modlue_tabs .hot_tips i {
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin-right: 14px;
+    background-color: #e6e6e6;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.modlue_tabs .hot_tips span {
+    float: left;
+    margin-right: 20px;
+    color: #999;
+}
+
+.modlue_tabs .hot_tips a {
+    color: #00b38a;
+}
+
+
+/* 公共的detail样式 */
+
+.modlue_tabs .details {
+    width: 100%;
+}
+
+.modlue_tabs .details ul {
+    width: 1215px;
+    overflow: hidden;
+    display: none;
+}
+
+.hotRecruit .details .current {
+    display: block;
+}
+
+.modlue_tabs .details ul li {
+    float: left;
+    width: 351px;
+    height: 184px;
+    padding: 20px 18px 0;
+    border: 1px #93b5cf solid;
+    margin-right: 42px;
+    margin-bottom: 16px;
+}
+
+
+/* 公共的查看更多 */
+
+.w .modlue_tabs .more {
+    width: 387px;
+    height: 43px;
+    line-height: 43px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #00b38a;
+}
+
+.w .modlue_tabs .more:hover {
+    color: #fff;
+    background-color: #00b38a;
+}

@@ -1,0 +1,117 @@
+@import url(common/subBar.css);
+@import url(common/navBar.css);
+body {
+  background: url(../images/productor_bg.jpg) no-repeat top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.conter {
+  position: fixed;
+  top: 120px;
+  left: 335px;
+  width: 1000px;
+  bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.order-box {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.order-box li {
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.order-box img {
+  width: 80px;
+  height: 80px;
+}
+.order-box table {
+  width: 100%;
+}
+.order-box tr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.order-box td {
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+}
+.order-box td:nth-child(1) {
+  width: 5%;
+}
+.order-box td:nth-child(6) {
+  width: 20%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.order-box button {
+  color: #fff;
+}
+.order-box button .sapn {
+  font-size: 12px;
+}
+.order-box td .num {
+  width: 60px;
+  height: 30px;
+  display: inline-block;
+  font-size: 20px;
+}
+.order-box .foot {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px 0;
+  color: #fff;
+}
+.order-box .foot span {
+  margin-right: 40px;
+}
+.order-box .foot strong {
+  color: #ffcb4e;
+  font-size: 20px;
+}
+.order-box .addDishes {
+  width: 50px;
+  height: 25px;
+  background-color: #a65335;
+  border-radius: 5px;
+  border: none;
+}
+.order-box .pay {
+  width: 80px;
+  height: 35px;
+  background-color: #ff8400;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+}
+/* 已下单状态 */
+.shopped li {
+  padding: 0;
+}
+.shopped li th {
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+}
+.shopped li th:nth-child(2) {
+  width: 25%;
+}
+.shopped li td:nth-child(5) {
+  font-size: 16px;
+}
+.shopped li img {
+  vertical-align: middle;
+  padding-right: 15px;
+}
+.shopped .foot {
+  padding: 15px 20px;
+}

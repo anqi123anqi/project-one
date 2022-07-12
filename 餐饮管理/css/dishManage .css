@@ -1,0 +1,102 @@
+/* 引入后台管理公共样式 */
+@import url(common/backcommon.css);
+
+.box {
+  background-color: #fff;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  margin: 0 20px 40px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.box h3 {
+  color: #495057;
+  font-size: 30px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+.box ul {
+  overflow: hidden;
+}
+.box li {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 0 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+.box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.bottom {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 0 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  line-height: 50px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  font-size: 20px;
+}
+.price strong {
+  color: #ff8400;
+  font-size: 20px;
+  font-weight: normal;
+}
+.recommend {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 50px;
+  color: #ff8400;
+}
+.eidt {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  justify-content: space-around; /*分散居中对齐*/
+  background-color: rgba(0, 0, 0, 0.9);
+  opacity: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.eidt span {
+  color: #dbdbdb;
+  font-size: 80px;
+}
+.eidt span:hover {
+  color: #ff8400;
+}
+.box li:hover .eidt {
+  opacity: 1;
+  transition: 0.4s;
+}
+.add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.add span {
+  font-size: 200px;
+  color: #ccc;
+}
+.add:hover {
+  background-color: #eee;
+  transition: 0.4s;
+}

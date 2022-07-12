@@ -1,0 +1,301 @@
+/* 引入基础样式 */
+
+@import url(base.css);
+
+/* 版心 */
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: "iconfont";
+    /* Project id 2932605 */
+    src: url('iconfont.woff2?t=1636686739693') format('woff2'), url('iconfont.woff?t=1636686739693') format('woff'), url('iconfont.ttf?t=1636686739693') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* 快捷菜单栏部分 */
+
+.xtx-short-cut {
+    height: 52px;
+    background-color: #333333;
+}
+
+.xtx-short-cut .container {
+    height: 52px;
+}
+
+.xtx-short-cut .container li {
+    float: left;
+    line-height: 52px;
+    color: #666666;
+}
+
+.xtx-short-cut li a {
+    margin: 0 16px;
+    color: #DCDCDC;
+    font-size: 14px;
+}
+
+.xtx-short-cut li:last-child a {
+    margin-right: 0;
+}
+
+.xtx-short-cut li:last-child a::before {
+    content: '';
+    display: inline-block;
+    width: 11px;
+    height: 16px;
+    margin-right: 8px;
+    margin-top: -2px;
+    vertical-align: middle;
+    background: url(../images/sprites.png) -160px -70px no-repeat;
+}
+
+
+/* 主导航栏模块 --- xtx-mian-nav */
+
+.xtx-mian-nav {
+    padding-top: 30px;
+    height: 130px;
+    box-sizing: border-box;
+}
+
+
+/* 主导航栏模块 ---  logo */
+
+.xtx-mian-nav .logo {
+    width: 207px;
+    height: 70px;
+    margin-left: 25px;
+}
+
+.xtx-mian-nav .logo a {
+    display: block;
+    height: 70px;
+    background: url(../images/logo.png) no-repeat;
+    background-size: 207px 70px;
+    font-size: 0px;
+}
+
+
+/* 导航部分 */
+
+.xtx-mian-nav .container nav {
+    margin-left: 40px;
+}
+
+.xtx-mian-nav .container li {
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    margin: 0 24px;
+}
+
+.xtx-mian-nav .container li:hover a {
+    color: #27BA9B;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #27BA9B;
+}
+
+
+/* 搜素部分 */
+
+.xtx-mian-nav .container .search {
+    width: 172px;
+    height: 30px;
+    /* border: orangered 1px solid; */
+    margin-top: 22px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.xtx-mian-nav .search input {
+    width: 172px;
+    height: 30px;
+    padding-left: 31px;
+    border-bottom: 2px solid #E7E7E7;
+}
+
+.xtx-mian-nav .search::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    width: 18px;
+    height: 18px;
+    background: url(../images/sprites.png) -80px -70px;
+}
+
+
+/* 购物车 */
+
+.xtx-mian-nav .container .cart {
+    width: 23px;
+    height: 23px;
+    margin-top: 30px;
+    position: relative;
+    background: url(../images/sprites.png) -120px -70px;
+}
+
+.xtx-mian-nav .container .cart::after {
+    content: '12';
+    display: block;
+    position: absolute;
+    top: -7px;
+    right: -8px;
+    width: 20px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #E26237;
+}
+
+
+/*footer部分  */
+
+.xtx-footer-contact {
+    height: 303px;
+}
+
+.xtx-footer-contact h2 {
+    margin: 80px 0 35px;
+    text-align: center;
+    font-size: 16px;
+    color: #999999;
+}
+
+.xtx-footer-contact ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.xtx-footer-contact span {
+    float: left;
+    width: 92px;
+    height: 92px;
+    margin-right: 7px;
+    border: 1px solid #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.xtx-footer-contact ul p {
+    width: 35px;
+    height: 30px;
+    margin: 22px 0 10px;
+}
+
+.xtx-footer-contact ul .online {
+    background: url(../images/sprites.png) -250px -70px;
+}
+
+.xtx-footer-contact ul .question {
+    background: url(../images/sprites.png) -350px -70px;
+}
+
+.xtx-footer-contact ul .wx {
+    background: url(../images/sprites.png) -205px -15px;
+}
+
+.xtx-footer-contact ul .wx {
+    background: url(../images/sprites.png) -205px -15px;
+}
+
+.xtx-footer-contact ul .wb {
+    background: url(../images/sprites.png) -350px -15px;
+}
+
+.xtx-footer-contact li img {
+    width: 105px;
+}
+
+.xtx-footer-contact .dl {
+    font-size: 10px;
+    color: #999999;
+    margin: 10px 10px;
+}
+
+.xtx-footer-contact .download {
+    width: 95px;
+    height: 32px;
+    margin-top: 14px;
+    line-height: 32px;
+    text-align: center;
+    background: #25ba9b;
+    color: #FFFFFF;
+}
+
+.xtx-footer-contact .call {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 22px;
+    color: #666666;
+}
+
+.xtx-footer-contact .time {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #999999;
+}
+
+.xtx-footer-service {
+    height: 343px;
+    background-color: #333333;
+}
+
+.xtx-footer-service ul {
+    display: flex;
+    justify-content: space-around;
+    height: 173px;
+    border-bottom: 1px solid #434343;
+}
+
+.xtx-footer-service ul a {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.xtx-footer-service li i {
+    font-size: 28px;
+    line-height: 173px;
+}
+
+.xtx-footer-service li span {
+    font-size: 58px;
+    margin-right: 15px;
+}
+
+
+/* xtx-footer-copyright */
+
+.xtx-footer-copyright {
+    margin-top: 30px;
+}
+
+.xtx-footer-copyright p {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.xtx-footer-copyright a {
+    margin: 0 5px;
+    font-size: 14px;
+    color: #999999;
+}

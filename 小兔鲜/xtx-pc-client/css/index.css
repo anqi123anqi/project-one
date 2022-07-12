@@ -1,0 +1,155 @@
+/* 引入base.css样式 */
+
+@import url(../css/base.css);
+
+/* 引入common.css样式 */
+
+@import url(../css/common.css);
+
+/* xtx-entry部分 */
+
+.xtx-entry {
+    height: 500px;
+    background-color: #f5f5f5;
+}
+
+.xtx-entry .container {
+    display: flex;
+}
+
+.xtx-entry .container .xtx-swiper {
+    width: 1000px;
+    height: 500px;
+    position: relative;
+}
+
+.xtx-category ul {
+    width: 251px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.xtx-category li a::after {
+    content: ">";
+    float: right;
+    color: azure;
+    margin-right: 15px;
+}
+
+.xtx-category li a {
+    padding-left: 25px;
+    line-height: 50px;
+    color: #fff;
+}
+
+.xtx-category li {
+    height: 50px;
+}
+
+.xtx-category li:hover {
+    background-color: #27ba9b;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* xtx-new-goods新鲜好物部分 */
+
+.xtx-new-goods {
+    height: 520px;
+}
+
+.xtx-new-goods .goods-hd {
+    height: 100px;
+    line-height: 100px;
+}
+
+.xtx-new-goods .goods-hd h2 {
+    float: left;
+    font-weight: 400;
+    font-size: 29px;
+}
+
+.xtx-new-goods .goods-hd h4 {
+    float: left;
+    color: #9999a6;
+    padding-left: 15px;
+    line-height: 100px;
+    font-weight: 400;
+}
+
+.xtx-new-goods .goods-hd h6 {
+    float: right;
+}
+
+.xtx-new-goods .goods-hd h6 a {
+    color: #9999a6;
+}
+
+.xtx-new-goods .goods-bd {
+    height: 405px;
+}
+
+.xtx-new-goods .goods-bd ul {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.xtx-new-goods .goods-bd ul li {
+    width: 300px;
+    height: 405px;
+    background-color: #f0f9f4;
+    text-align: center;
+}
+
+.xtx-new-goods .goods-bd li img {
+    width: 100%;
+}
+
+.xtx-new-goods .goods-bd li h4 {
+    font-weight: 400;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.xtx-new-goods .goods-bd p {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #9a2e1f;
+}
+
+.xtx-new-goods .goods-bd ul li:hover {
+    box-shadow: 2px 2px 20px;
+    transition: .3s;
+}

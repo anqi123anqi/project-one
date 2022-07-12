@@ -1,0 +1,15 @@
+/* 返回顶部 */
+
+.backTop {
+    position: fixed;
+    width: 28px;
+    height: 46px;
+    left: 50%;
+    bottom: 120px;
+    margin-left: 630px;
+    background: url(../upload/backtop-new.png) 0px 0px no-repeat;
+}
+
+.backTop:hover {
+    background: url(../upload/backtop-new.png) -38px 0px no-repeat;
+}

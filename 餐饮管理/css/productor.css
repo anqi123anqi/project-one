@@ -1,0 +1,72 @@
+@import url(common/subBar.css);
+@import url(common/navBar.css);
+body {
+  background: url(../images/productor_bg.jpg) no-repeat top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.conter {
+  position: fixed;
+  top: 140px;
+  left: 335px;
+  bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.foodList {
+  display: flex;
+  width: 1080px;
+  flex-wrap: wrap;
+}
+.foodList li {
+  position: relative;
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.foodList img {
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+}
+.foodList .recomend {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 50px;
+  color: #ff8400;
+}
+.foodList .bar {
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 16px;
+  line-height: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.foodList p {
+  display: flex;
+  align-items: center;
+}
+.foodList .rmb {
+  font-size: 14px;
+}
+.foodList .price {
+  color: #f0e184;
+  margin: 0 10px;
+}
+.foodList .bar button {
+  width: 20px;
+  height: 20px;
+  background-color: #ff8400;
+  margin-right: 10px;
+}

@@ -1,0 +1,224 @@
+/* login-banner区域start */
+
+.login-banner {
+    height: 90px;
+    background-color: #00b38a;
+}
+
+
+/* 右侧盒子 */
+
+.login-banner .w .login-banner-l {
+    position: relative;
+}
+
+.login-banner .w .login-banner-l .ads {
+    position: absolute;
+    top: -33px;
+    left: -10px;
+    width: 228px;
+    height: 140px;
+    background: url(../upload/飞书.png) no-repeat;
+    background-size: 200px 123px;
+}
+
+.login-banner .w .login-banner-l .txt {
+    float: left;
+    margin-left: 230px;
+    padding-top: 20px;
+}
+
+.login-banner .w .login-banner-l img {
+    width: 334px;
+    height: 30px;
+}
+
+.login-banner .w .login-banner-l p {
+    margin-top: 5px;
+    color: #fff;
+}
+
+
+/* 左侧盒子 */
+
+.login-banner .w .login-form {
+    float: right;
+    margin-top: 30px;
+}
+
+.login-banner .w .login-form .tel {
+    float: left;
+    width: 212px;
+    height: 35px;
+    margin-right: 8px;
+    background-color: #fff;
+}
+
+.login-banner .w .login-form .tel .area-code {
+    float: left;
+    width: 66px;
+    height: 35px;
+    position: relative;
+}
+
+.login-banner .w .login-form .tel .area-code .area-code-now {
+    width: 56px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+    margin-left: 5px;
+}
+
+.login-banner .w .login-form .tel .area-code .area-code-list {
+    display: none;
+    position: absolute;
+    top: 34px;
+    left: 0;
+    width: 214px;
+    height: 250px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    overflow: auto;
+}
+
+.login-banner .w .login-form .tel .area-code .area-code-list dl dt {
+    height: 36px;
+    line-height: 36px;
+    padding: 0 12px;
+    background-color: #fbfbfb;
+    color: #999;
+}
+
+.login-banner .w .login-form .tel .area-code .area-code-list dl dd {
+    height: 36px;
+    line-height: 36px;
+    padding: 0 12px;
+    color: #555;
+}
+
+.login-banner .w .login-form .tel .area-code .area-code-list p {
+    margin: 20px 12px;
+    line-height: 20px;
+}
+
+.login-banner .w .login-form .tel .area-code .area-code-list dl dd:hover {
+    color: #00b38a;
+    background-color: #f4f4f4;
+}
+
+.login-banner .w .login-form .tel .area-code .area-code-list dl dd span {
+    float: right;
+}
+
+.login-banner .w .login-form .tel .user-tel {
+    float: left;
+    width: 136px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+
+/* 验证码 */
+
+.login-banner .w .login-form .yzm {
+    float: left;
+    width: 146px;
+    height: 35px;
+    margin-right: 8px;
+    background-color: #fff;
+}
+
+.login-banner .w .login-form .yzm .yzm-txt {
+    float: left;
+    width: 80px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+.login-banner .w .login-form .yzm i {
+    float: left;
+    width: 8px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #d5dadf;
+}
+
+.login-banner .w .login-form .yzm span {
+    float: left;
+    width: 42px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #00b38a;
+    cursor: pointer;
+}
+
+.login-banner .w .login-form .login-or_register {
+    float: left;
+    width: 105px;
+    height: 33px;
+    border: 1px solid #fff;
+    color: #ccfee7;
+    background-color: #00b38a;
+    margin-right: 4px;
+    line-height: 33px;
+    text-align: center;
+}
+
+.login-banner .w .login-form .login-or_register:hover {
+    background-color: #85c3a2;
+    color: #e0f0e8;
+}
+
+
+/* login-banner区域end */
+
+
+/* search区域start */
+
+.search {
+    height: 132px;
+    background-color: #f2f5f4;
+}
+
+.search .search_warapper {
+    width: 937px;
+    height: 102px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.search .search_warapper .search_form {
+    height: 46px;
+}
+
+.search .search_warapper .search_form .search_input {
+    float: left;
+    width: 780px;
+    height: 46px;
+    padding-left: 16px;
+    border: 1px solid #e8e8e8;
+    border-right: 0;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 46px;
+}
+
+.search .search_warapper .search_form .btn {
+    float: left;
+    width: 142px;
+    height: 46px;
+    background-color: #00b38a;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.search .search_warapper .search_form .btn:hover {
+    background-color: #5ea680;
+}
+
+
+/* search区域end */

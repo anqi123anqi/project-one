@@ -1,0 +1,176 @@
+/* 初始化样式 */
+
+body {
+    color: #666;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00b38a;
+    text-decoration: none;
+}
+
+
+/* 公共样式 */
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 40px;
+    background-color: #363433;
+    line-height: 40px;
+}
+
+
+/* .header_l区域 */
+
+.header_l {
+    float: left;
+}
+
+.header_r {
+    float: right;
+}
+
+
+/* logo区域 */
+
+.logo {
+    float: left;
+    width: 66px;
+}
+
+.header .header_l .logo a {
+    display: block;
+    width: 66px;
+    height: 16px;
+    margin-top: 12px;
+    background: url(../images/logo.png) no-repeat;
+    background-size: 100%;
+    font-size: 0;
+}
+
+
+/* 切换城市 */
+
+.header_l .city {
+    float: left;
+    width: 111px;
+    margin-right: 33px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.header_l .city span {
+    color: #00b38a;
+    line-height: 40px;
+    margin-right: 11px;
+}
+
+.header_l .city i {
+    font-size: 12px;
+    color: #afb5c0;
+}
+
+
+/* nav区域 */
+
+.header_l .nav {
+    float: left;
+}
+
+.header_l .nav li a {
+    float: left;
+    display: block;
+    padding: 0 20px;
+    color: #afb5c0;
+    position: relative;
+}
+
+.header_l .nav li a:hover {
+    color: #fff;
+    background-color: #00b38a;
+}
+
+.header_l .nav li a .tips {
+    position: absolute;
+    left: 40px;
+    top: 2px;
+    width: 26px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: #c21f30;
+    line-height: 16px;
+    text-align: center;
+    font-size: 3px;
+    color: #fff;
+}
+
+
+/* .header_r区域 */
+
+.header_r a {
+    float: left;
+    color: #afb5c0;
+}
+
+.header_r a:hover {
+    color: #fff;
+}
+
+.header_r .upload {
+    margin-right: 23px;
+}
+
+.header_r .postion {
+    margin-right: 30px;
+}
+
+.header_r span {
+    float: left;
+    margin: 0 8px 0;
+    color: #5e5a50;
+}
+
+.header_r .login::before {
+    content: '';
+    display: inline-block;
+    margin: 0 6px 0 0;
+    width: 15px;
+    height: 15px;
+    background: url(../upload/login.png);
+    background-size: 100% 100%;
+    vertical-align: text-bottom;
+}
+
+.header_r .register {
+    margin-right: 40px;
+}
+
+.header_r .app {
+    margin-right: 20px;
+}
+
+.header_r .app::before {
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 16px;
+    margin: 5px 5px 0 0;
+    background: url(../upload/phone.png);
+    background-size: 100% 100%;
+    vertical-align: text-bottom;
+}
+
+.header_r .app:hover {
+    color: #00b38a;
+}

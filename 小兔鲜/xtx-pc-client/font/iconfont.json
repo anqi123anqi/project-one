@@ -1,0 +1,30 @@
+{
+  "id": "2932605",
+  "name": "2021.11.12",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "167196",
+      "name": "价格",
+      "font_class": "jiage",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "1727258",
+      "name": "01运输中、物流",
+      "font_class": "yunshuzhongwuliu",
+      "unicode": "e883",
+      "unicode_decimal": 59523
+    },
+    {
+      "icon_id": "21008602",
+      "name": "品质保障",
+      "font_class": "pinzhibaozhang",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    }
+  ]
+}
